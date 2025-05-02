@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Sidebar.css';
 
+{/* Modificación de Sidebar para que pueda ocultarse*/}
 const Sidebar = ({ pages }) => {
   const [isCollapsed, setIsCollapsed] = useState(false);
 
